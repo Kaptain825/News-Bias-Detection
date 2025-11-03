@@ -82,7 +82,7 @@ def load_model():
     """Load the trained bias detection model"""
     try:
         # Update this path to where your model is saved
-        model_path = 'improved_bias_detector_final'
+        model_path = "Kaptain2026/news-bias-detector"
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = AutoModelForSequenceClassification.from_pretrained(model_path)
         model.eval()
