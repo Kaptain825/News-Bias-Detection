@@ -1,0 +1,7 @@
+streamlit
+torch
+transformers
+requests
+beautifulsoup4
+lxml
+regex
